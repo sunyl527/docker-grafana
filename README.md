@@ -1,5 +1,20 @@
 ### docker-grafana with wechat notifier
 
+#### Before start
+
+需要安装go
+设置代理
+```
+$ export GO111MODULE=on
+$ export GOPROXY=https://goproxy.cn
+# https://goproxy.cn/
+# go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://goproxy.cn,direct
+# 或
+go env -w GOPROXY=https://goproxy.io,direct
+go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+```
+
 #### Build image
 
 ```
