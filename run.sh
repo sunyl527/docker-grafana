@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f "grafana.tar.gz" ]; then
-wget https://codeload.github.com/grafana/grafana/tar.gz/v5.4.2 -O grafana.tar.gz
+wget https://codeload.github.com/grafana/grafana/tar.gz/v6.7.4 -O grafana.tar.gz
 fi
 
 if [ ! -d "grafana" ]; then
