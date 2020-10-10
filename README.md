@@ -3,6 +3,13 @@
 #### Before start
 
 需要安装go
+```
+brew search go@
+brew install go@1.13
+brew switch go 1.13.1
+echo 'export PATH="/usr/local/opt/go@1.13/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
 设置代理
 ```
 $ export GO111MODULE=on
